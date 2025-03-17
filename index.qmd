@@ -140,7 +140,6 @@ emissions_long["emissions"] = pd.to_numeric(emissions_long["emissions"].astype(s
 emissions_long_1990_2022 = emissions_long[(emissions_long["year"] >= 1990) & (emissions_long["year"] <= 2022)]
 
 # Query for 5 countries (adjust these to any countries you like)
-emissions_long_subset = 
 selected_countries = ["Austria", "UAE", "Angola", "Argentina", "Andorra"]
 emissions_long = emissions_long[emissions_long["country"].isin(selected_countries)]
 emissions_long
